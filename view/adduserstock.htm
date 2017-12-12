@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+    <title> Insert data into user inventory </title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script type="text/javascript">
+        //addusertools
+        $(document).ready(function () {
+            $("#submittool").click(function () {
+                console.log('hi');
+                var tl_id = $("#tl_id").val(); /// # means id
+                var tl = $("#tl").val();
+                var u_id = $("#u_id").val();
+                $.post("../api/addtools.php", {tl_id: tl_id, tl: tl, u_id: u_id}).done(function (data) {
+                    $("#response").html(data);
+                });
+            });
+        })
+
+        //adduserwood
+        $(document).ready(function () {
+            $("#submitwood").click(function () {
+                console.log('hi');
+                var wdid = $("#wdid").val(); /// # means id
+                var len = $("#len").val();
+                var wid = $("#wid").val();
+                var hei = $("#hei").val();
+                var usrid = $("#usrid").val();
+                $.post("../api/addwood.php", {
+                    wdid: wdid,
+                    len: len,
+                    wid: wid,
+                    hei: hei,
+                    usrid: usrid
+                }).done(function (data) {
+                    $("#responsewood").html(data);
+                });
+            });
+        })
+
+        //user Screws
+        $(document).ready(function () {
+            $("#submitscrews").click(function () {
+                console.log('hi');
+                var scrw_id = $("#scrw_id").val(); /// # means id
+                var lngth = $("#lngth").val();
+                var nmber = $("#nmber").val();
+                var usr_id = $("#usr_id").val();
+                $.post("../api/addscrews.php", {
+                    scrw_id: scrw_id,
+                    lngth: lngth,
+                    nmber: nmber,
+                    usr_id: usr_id
+                }).done(function (data) {
+                    $("#responsescrews").html(data);
+                });
+            });
+        })
+
+
+    </script>
+
+</head>
+
+<body>
+
+<h1>Welcome to your stock addition page</h1>
+</br>
+<h5>Please use the below to add stock to your customer account</h5>
+</br>
+<h5>Once you are finished click <a href="Customeraccountpage.htm"> here </a> to return to your customer account homepage
+</h5>
+</br>
+<h3> Insert data into Wood Table</h3>
+
+</br>
+
+<div>
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New Wood</legend>
+
+        <label> Wood_ID: <Input type="text" id="wdid" name="wdid"/> </label>
+        <label> Length: <Input type="text" id="len" name="len"/> </label>
+        <label> Width: <Input type="text" id="wid" name="wid"/> </label>
+        <label> Height: <Input type="text" id="hei" name="hei"/> </label>
+        <label> user_id: <Input type="text" id="usrid" name="usrid"/> </label>
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submitwood" value="add new wood"/>
+
+
+</div>
+
+<div id="responsewood"></div>
+
+</br>
+</br>
+
+<h3> Insert Tools into Tools Table</h3>
+
+
+</br>
+
+<div>
+
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New Tool</legend>
+
+        <label> tool id: <Input id="tl_id" type="text" name="tl_id"/> </label>
+        </br>
+        </br>
+        <select id="tl">
+            <option value="Cross Head Screw Driver"> Cross Head Screw Driver</option>
+            <option value="Flat Head Screw Driver"> Flat Head Screw Driver</option>
+            <option value="Power Drill"> Power Drill</option>
+            <option value="Hammer">Hammer</option>
+            <option value="Measuring Tape"> Measuring Tape</option>
+            <option value="Hacksaw"> Hacksaw</option>
+            <option value="Powersaw">Powersaw</option>
+        </select>
+        </br>
+        </br>
+        <label> user id: <Input type="text" id="u_id" name="u_id"/> </label>
+
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submittool" value="add new tools"/>
+
+</div>
+
+<div id="response"></div>
+
+</br>
+</br>
+
+
+<h3> Insert data into Screws Table </h3>
+
+</br>
+
+<div>
+
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New Screws</legend>
+
+        <label> screw_id: <Input type="text" id="scrw_id" name="scrw_id"/> </label>
+        <label> Length: <Input type="text" id="lngth" name="lngth"/> </label>
+        <label> Number: <Input type="text" id="nmber" name="nmber"/> </label>
+        <label> user_id: <Input type="text" id="usr_id" name="usr_id"/> </label>
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submitscrews" value="add new screws"/>
+
+</div>
+
+
+<div id="responsescrews"></div>
+
+
+</br>
+</br>
+
+
+</body>
+
+</html>

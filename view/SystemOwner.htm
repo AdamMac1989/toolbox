@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="../ToolBoxCSS.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+    <title> Insert data into user inventory </title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script type="text/javascript">
+        //addprojectwood
+        $(document).ready(function () {
+            $("#submitprojectwood").click(function () {
+                console.log('hi');
+                var pw_id = $("#pw_id").val(); /// # means id
+                var length = $("#length").val();
+                var width = $("#width").val();
+                var height = $("#height").val();
+                var p_name = $("#p_name").val();
+                $.post("../api/addprojectwood.php", {
+                    pw_id: pw_id,
+                    length: length,
+                    width: width,
+                    height: height,
+                    p_name: p_name
+                }).done(function (data) {
+                    $("#responseprojectwood").html(data);
+                });
+            });
+        })
+
+        //add project tools
+        $(document).ready(function () {
+            $("#submittool").click(function () {
+                console.log('hi');
+                var prtool_id = $("#prtool_id").val(); /// # means id
+                var projecttool = $("#projecttool").val();
+                var pr_name = $("#pr_name").val();
+                $.post("../api/addprojecttools.php", {
+                    prtool_id: prtool_id,
+                    projecttool: projecttool,
+                    pr_name: pr_name
+                }).done(function (data) {
+                    $("#responsetool").html(data);
+                });
+            });
+        })
+
+        //add project screws
+        $(document).ready(function () {
+            $("#submitscrews").click(function () {
+                console.log('hi');
+                var prsw_id = $("#prsw_id").val(); /// # means id
+                var screwlength = $("#screwlength").val();
+                var screwnumber = $("#screwnumber").val();
+                var screwp_name = $("#screwp_name").val();
+                $.post("../api/addprojectscrews.php", {
+                    prsw_id: prsw_id,
+                    screwlength: screwlength,
+                    screwnumber: screwnumber,
+                    screwp_name: screwp_name
+                }).done(function (data) {
+                    $("#responsescrews").html(data);
+                });
+            });
+        })
+
+        //add project instructions
+        $(document).ready(function () {
+            $("#submitinstructions").click(function () {
+                console.log('hi');
+                var pinst_name = $("#pinst_name").val(); /// # means id
+                var instructions = $("#instructions").val();
+                $.post("../api/addprojectinst.php", {
+                    pinst_name: pinst_name,
+                    instructions: instructions
+                }).done(function (data) {
+                    $("#responseinstructions").html(data);
+                });
+            });
+        })
+
+
+    </script>
+
+
+</head>
+
+<body>
+
+<h1>Toolbox</h1>
+
+<h1>Add new PROJECT Wood </h1>
+
+
+<div>
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New Project Wood</legend>
+
+        <label> pw_id: <Input type="text" id="pw_id" name="pw_id"/> </label>
+        <label> Length: <Input type="text" id="length" name="length"/> </label>
+        <label> Width: <Input type="text" id="width" name="width"/> </label>
+        <label> Height: <Input type="text" id="height" name="height"/> </label>
+        <label> project_name: <Input type="text" id="p_name" name="p_name"/> </label>
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submitprojectwood" value="add new project wood"/>
+
+
+</div>
+
+<div id="responseprojectwood"></div>
+
+</br>
+</br>
+
+<h3> Insert Tools into PROJECT Tools Table</h3>
+
+
+</br>
+
+<div>
+
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New Project Tools</legend>
+
+        <label> prtool_id: <Input id="prtool_id" type="text" name="prtool_id"/> </label>
+        </br>
+        </br>
+        <select id="projecttool">
+            <option value="Cross Head Screw Driver"> Cross Head Screw Driver</option>
+            <option value="Flat Head Screw Driver"> Flat Head Screw Driver</option>
+            <option value="Power Drill"> Power Drill</option>
+            <option value="Hammer">Hammer</option>
+            <option value="Measuring Tape"> Measuring Tape</option>
+            <option value="Hacksaw"> Hacksaw</option>
+            <option value="Powersaw">Powersaw</option>
+        </select>
+        </br>
+        </br>
+        <label> pr_name: <Input type="text" id="pr_name" name="pr_name"/> </label>
+
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submittool" value="add new tools"/>
+
+</div>
+
+<div id="responsetool"></div>
+
+</br>
+</br>
+
+
+<h3> Insert data into PROJECT Screws Table </h3>
+
+</br>
+
+<div>
+
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New PROJECT Screws</legend>
+
+        <label> prsw_id: <Input type="text" id="prsw_id" name="prsw_id"/> </label>
+        <label> Screw Length: <Input type="text" id="screwlength" name="screwlength"/> </label>
+        <label> Screw Number: <Input type="text" id="screwnumber" name="Screw number"/> </label>
+        <label> p_name: <Input type="text" id="screwp_name" name="screwp_name"/> </label>
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submitscrews" value="add new screws"/>
+
+</div>
+
+
+<div id="responsescrews"></div>
+
+
+<div>
+
+
+    <input type="hidden" name="submitted" value="true"/>
+
+    <fieldset>
+        <legend> New PROJECT Instructions</legend>
+
+        <label> pinst_name: <Input type="text" id="pinst_name" name="pinst_name"/> </label>
+        <label> Instructions: <Input type="text" id="instructions" name="Instructions"/> </label>
+
+    </fieldset>
+
+    </br>
+
+    <input type="submit" id="submitinstructions" value="add new instructions"/>
+
+</div>
+
+
+<div id="responseinstructions"></div>
+
+
+</br>
+</br>
+
+
+</body>
+
+</html>

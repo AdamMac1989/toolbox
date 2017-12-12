@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="../ToolBoxCSS.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script>
+
+        //userwood
+
+        httpGetAsync('../api/getuserwood.php', callback);
+
+        function callback(result) {
+            console.log(result);
+            var listWood = JSON.parse(result); //iterate over list and add to html
+//          document.getElementById("wood-id").innerHTML = listTools[0].wood_id;
+
+
+            for (var i in listWood) {
+                var html = document.getElementById("wood-id").innerHTML;
+                document.getElementById("wood-id").innerHTML = html + "<tr>" +
+                    "<td>" + (listWood[i].wood_id) + "</td> " +
+                    "<td>" + (listWood[i].length) + " </td> " +
+                    "<td>" + (listWood[i].width) + " </td> " +
+                    "<td>" + (listWood[i].height) + " </td> " +
+                    "<td>" + (listWood[i].user_id) + "</td></tr>";
+                // (listWood[i].user_id) + "<br>" + " " +; //Tried this but didn't work?
+            }
+        }
+
+        //usertools
+
+        httpGetAsync('../api/getusertools.php', call); // changed callback to call
+        function call(result) {
+            console.log(result);
+            var listTools = JSON.parse(result); //iterate over list and add to html
+//          document.getElementById("wood-id").innerHTML = listTools[0].wood_id;
+
+            for (var i in listTools) {
+                var htmltools = document.getElementById("tool-id").innerHTML;
+                document.getElementById("tool-id").innerHTML = htmltools + "<tr>" +
+                   "<td>" + (listTools[i].usertool_id ) + "</td>" +
+                   "<td>" + (listTools[i].Tool) + "</td>" +
+                   "<td>" + (listTools[i].user_id) + "</td></tr>";
+            }
+
+        }
+
+        //userscrews
+
+        httpGetAsync('../api/getuserscrews.php', callscrew); // changed callback to call
+        function callscrew(result) {
+            console.log(result);
+            var listScrews = JSON.parse(result); //iterate over list and add to html
+//          document.getElementById("wood-id").innerHTML = listTools[0].wood_id;
+
+            for (var i in listScrews) {
+                var htmlscrew = document.getElementById("screw-id").innerHTML;
+                document.getElementById("screw-id").innerHTML = htmlscrew + "<tr>" +
+                   "<td>" + (listScrews[i].screw_id ) + " </td> " +
+                   "<td>" + (listScrews[i].length) + " </td> " +
+                   "<td>" + (listScrews[i].number) + "</td> " +
+                   "<td>" + (listScrews[i].user_id) + "</td></tr>";
+            }
+
+        }
+
+
+        function httpGetAsync(theUrl, callback) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+        }
+
+
+        //          function httpGetAsyn (theUrl, call)
+        //      {
+        //          var xmlHttp = new XMLHttpRequest();
+        //          xmlHttp.onreadystatechange = function() {
+        //              if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+        //                  callback(xmlHttp.responseText);
+        //          }
+        //          xmlHttp.open("GET", theUrl, true); // true for asynchronous
+        //          xmlHttp.send(null);
+        //      }
+        //
+
+    </script>
+
+    <title>Customer Account Page</title>
+
+</head>
+
+<body>
+
+<h1> ToolBox </h1>
+
+<h3> Your customer account page </h3>
+
+<p><b> Welcome to your page please use this to view the status of your inventory, tools list and to select your
+    projects </b></p>
+
+<h4> View your wood in stock below </h4>
+
+</br>
+
+<!--<div id = "tab">-->
+
+<table class="table" style="width: 50%">
+    <thead>
+    <tr>
+        <th scope="col">wood_id</th>
+        <th scope="col">Length</th>
+        <th scope="col">Width</th>
+        <th scope="col">Height</th>
+        <th scope="col">User_id</th>
+    </tr>
+    </thead>
+    <tbody id="wood-id">
+    </tbody>
+</table>
+
+<!--</div>-->
+
+
+</br>
+
+<h4> View your tools in stock </h4>
+
+</br>
+
+
+
+<table class="table" style="width: 50%">
+    <thead>
+    <tr>
+        <th scope="col">Usertool_id</th>
+        <th scope="col">Tool</th>
+        <th scope="col">User_id</th>
+     </tr>
+    </thead>
+    <tbody id="tool-id">
+    </tbody>
+</table>
+
+
+
+</br>
+
+<h4> View your screws in stock below </h4>
+
+</br>
+
+<table class="table" style="width: 50%">
+    <thead>
+    <tr>
+        <th scope="col">Screw_id</th>
+        <th scope="col">Length</th>
+        <th scope="col">Number</th>
+        <th scope="col">User_id</th>
+    </tr>
+    </thead>
+    <tbody id="screw-id">
+    </tbody>
+</table>
+
+</br>
+
+
+<h4> Select a Project to Build below </h4>
+
+<form>
+
+    <select>
+        <option value="Table">Table</option>
+        <option value="Chair">Chair</option>
+
+    </select>
+
+    <button onclick="loadproject()"> Submit</button> <!--Build function for this??-->
+
+
+</form>
+
+<h4> Click <a href="adduserstock.htm"> here </a> to add stock and tools </h4>
+
+</body>
+
+</html>

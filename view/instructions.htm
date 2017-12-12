@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Instructions</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+    <script>
+
+        //userscrews
+
+        httpGetAsync('../api/getinst.php', callinst); // changed callback to call
+
+        function callinst(result) {
+            console.log(result);
+            var listInst = JSON.parse(result); //iterate over list and add to html
+            //          document.getElementById("wood-id").innerHTML = listTools[0].wood_id;
+
+            for (var i in listInst) {
+                var htmlist = document.getElementById("inst").innerHTML;
+                document.getElementById("inst").innerHTML = htmlist + " <tr>" +
+                    " <td>" + (listInst[i].p_name ) + "</td> " +
+                    " <td>" + (listInst[i].instructions) + "</td></tr>";
+            }
+
+        }
+
+
+        function httpGetAsync(theUrl, callback) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+        }
+
+
+    </script>
+
+
+</head>
+<body>
+
+
+<h1>Project Instructions</h1>
+</br>
+
+<h4>View your selected project instructions below</h4>
+
+</br>
+</br>
+
+<table class="table" style="width: 50%">
+    <thead>
+    <tr>
+        <th scope="col">Project</th>
+        <th scope="col">Instructions</th>
+    </tr>
+    </thead>
+    <tbody id="inst">
+    </tbody>
+</table>
+
+</br>
+
+<h5>Once you are finished click <a href="Customeraccountpage.htm"> here </a> to return to your customer account homepage
+</h5>
+
+
+</body>
+</html>

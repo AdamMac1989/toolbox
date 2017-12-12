@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <link rel ="stylesheet" href ="../ToolBoxCSS.css"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+  <title> Add User Details </title>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+  <script type="text/javascript">
+      //adduser
+
+      $(document).ready(function () {
+          $("#submituser").click(function () {
+              console.log('hi');
+              var name = $("#name").val(); /// # means id
+              var pass = $("#pass").val();
+              var phone_number = $("#phone_number").val();
+              var email = $("#email").val();
+              $.post("../api/adduser.php", {name: name, pass: pass, phone_number: phone_number, email:email}).done(function (data) {
+                  $("#responseuser").html(data);
+              });
+          });
+      })
+
+
+
+
+
+
+ </script>
+</head>
+
+<body>
+
+<h1> ToolBox </h1>
+
+<h2>Account Registration Form</h2>
+
+
+
+
+
+ <div>
+
+   <input type="hidden" name="submitted" value="true"/>
+
+   <fieldset>
+    <legend> Enter Your Details </legend>
+
+    <label><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" ID = "name" name="name" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" ID = "pass" name="pass" required>
+
+    <label><b>Phone Number</b></label>
+    <input type="number" placeholder="Enter Phone Number" ID = "phone_number" name="phone_number" required>
+
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" ID = "email" name="email" required>
+
+   </fieldset>
+
+ </div>
+
+
+
+
+<input type="submit" id="submituser" value="add new user"/>
+
+      <button type="button" onclick = "window.location.href = '../api/login.php'">Cancel</button>
+
+
+<div id = "responseuser"> </div>
+
+
+
+
+</body>
+
+</html>
+
+<!--  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_signup_form     -->
+

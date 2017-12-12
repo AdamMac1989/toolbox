@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+ <script>
+
+     httpGetAsync ('test.php',callback);
+     function callback(result) {
+         console.log(result);
+        var listTools =  JSON.parse(result); //iterate over list and add to html
+         document.getElementById("wood-id").innerHTML = listTools[0].wood_id;
+
+     }
+     function httpGetAsync(theUrl, callback)
+     {
+         var xmlHttp = new XMLHttpRequest();
+         xmlHttp.onreadystatechange = function() {
+             if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                 callback(xmlHttp.responseText);
+         }
+         xmlHttp.open("GET", theUrl, true); // true for asynchronous
+         xmlHttp.send(null);
+     }
+
+
+ </script>
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<div id = "wood-id"></div>
+
+<div class="btn">hello</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Username</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
+
+<!--https://stackoverflow.com/questions/247483/http-get-request-in-javascript-->
