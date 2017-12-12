@@ -42,24 +42,48 @@ if ($sqlresult->num_rows > 0) {
 
 $missing = array();
 
-foreach ($systemwood as &$sw) {
+//foreach ($systemwood as &$sw) {
+//    $found = FALSE;
+//    foreach ($userwood as &$uw) {
+//        $found = $sw["length"] == $uw["length"];
+//        //when found is true remove from userwood
+//    }
+//    if(!$found){
+//        array_push($missing, $sw);
+//    }
+//}
+
+foreach ($userwood as &$uw) {
     $found = FALSE;
-    foreach ($userwood as &$uw) {
-        $found = $sw["length"] == $uw["length"];
+    for ($s = 0; $s < count($systemwood); $s++) {
+       $sw = $systemwood[$s];
+        $found = ($sw["length"] == $uw["length"]) && ($sw["width"] == $uw["width"])&& ($sw["height"] == $uw["height"]) ;
+
+        if($found == true){
+            unset($systemwood[$s]);
+            $systemwood = array_values ($systemwood);
+           break;
+        }
         //when found is true remove from userwood
     }
-    if(!$found){
-        array_push($missing, $sw);
-    }
+//    if(!$found){
+//
+//
+//        array_push($missing, $uw);
+//    }
 }
-
 
 $conn->close();
 
 //echo json_encode($systemwood);
 //echo json_encode($userwood);
-echo json_encode($missing);
+echo json_encode ($systemwood);
 
+
+
+//echo json_encode($systemwood);
+//echo "</br>";
+//echo json_encode($userwood);
 
 
 
