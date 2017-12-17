@@ -4,7 +4,10 @@
 
 function  fetch($sql)
 {
+
     include ('../connect.php');
+
+global $conn; //https://en.wikipedia.org/wiki/Global_variable#PHP
 
     $sqlresult = $conn->query($sql);
 

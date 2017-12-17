@@ -9,7 +9,7 @@ if ($conn->connect_error) {
 }
 //echo "Connected successfully";
 
-$sql = "SELECT * FROM project_instructions";
+$sql = "SELECT * FROM project_instructions WHERE p_name = 'chair'" ; // changed to only display chair
 $result = $conn ->query($sql);
 
 $list = array();

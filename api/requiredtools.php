@@ -12,45 +12,45 @@ include('connect.php');
 $user_id = $_GET ['user_id'];
 $p_name = $_GET ['p_name'];
 
-$sql = "SELECT * FROM  project_wood WHERE p_name ='".$p_name. "'" ;
+$sql = "SELECT * FROM  project_tools WHERE p_name ='".$p_name. "'" ;
 $sqlresult = $conn ->query($sql);
 
-$systemwood = array();
+$systemtools = array();
 
 if ($sqlresult->num_rows > 0) {
     // output data of each row
     while($row = $sqlresult->fetch_assoc()) {
 //         print_r($row);
-        array_push($systemwood, $row);
+        array_push($systemtools, $row);
     }
 }
 
 
 
-$sqlforuser = "SELECT * FROM  user_wood WHERE user_id ='".$user_id. "'" ;
+$sqlforuser = "SELECT * FROM  user_tools WHERE user_id ='".$user_id. "'" ;
 $sqlresult = $conn ->query($sqlforuser);
 
-$userwood = array();
+$usertools = array();
 
 if ($sqlresult->num_rows > 0) {
     // output data of each row
     while($row = $sqlresult->fetch_assoc()) {
 //         print_r($row);
-        array_push($userwood, $row);
+        array_push($usertools, $row);
     }
 }
 
 
-foreach ($userwood as &$uw) {
+foreach ($usertools as &$uw) {
     $found = FALSE;
-    for ($s = 0; $s < count($systemwood); $s++) {
-       $sw = $systemwood[$s];
-        $found = ($sw["length"] == $uw["length"]) && ($sw["width"] == $uw["width"])&& ($sw["height"] == $uw["height"]) ;
+    for ($s = 0; $s < count($systemtools); $s++) {
+        $sw = $systemtools[$s];
+        $found = ($sw["tool"] == $uw["Tool"]) ;
 
         if($found == true){
-            unset($systemwood[$s]);
-            $systemwood = array_values ($systemwood);
-           break;
+            unset($systemtools[$s]);
+            $systemtools = array_values ($systemtools);
+            break;
         }
 
     }
@@ -60,7 +60,7 @@ foreach ($userwood as &$uw) {
 $conn->close();
 
 
-echo json_encode ($systemwood);
+echo json_encode ($systemtools);
 
 
 ?>

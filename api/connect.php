@@ -7,6 +7,8 @@ $password = "root";
 $database = "toolbox";
 
 // Create connection
+global $conn; //added this in 17/12/17
+
 $conn = new mysqli ($servername, $username, $password, $database);
 
 // Check connection

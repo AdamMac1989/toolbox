@@ -5,6 +5,43 @@
 
     <link rel ="stylesheet" href ="../ToolBoxCSS.css"/>
 
+    <script>
+
+        httpGetAsync('../api/requiredwood.php', callrequiredwood); // changed callback to call
+        function callrequiredwood(result) {
+            console.log(result);
+            var listRequiredwood = JSON.parse(result);
+
+
+            for (var i in listRequiredwood) {
+                var htmlrequiredwood = document.getElementById("requiredwood").innerHTML;
+                document.getElementById("requiredwood").innerHTML = htmlrequiredwood
+                  + " " +    (listRequiredwood[i].pw_id )
+                  + " " +    (listRequiredwood[i].length)
+                  + " " +   (listRequiredwood[i].width)
+                  + " " +   (listRequiredwood[i].height)
+                  + " " +   (listRequiredwood[i].p_name) + "</br>" ;
+            }
+
+        }
+
+
+        function httpGetAsync(theUrl, callback) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+        }
+
+
+    </script>
+
+
+
+
 </head>
 
 <body>
@@ -13,6 +50,22 @@
 
 <h2> Wood Required to be purchased </h2>
 
+
+<!--<table class="table" style="width: 50%">-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th scope="col">pw_id</th>-->
+        <!--<th scope="col">Length</th>-->
+        <!--<th scope="col">Width</th>-->
+        <!--<th scope="col">Height</th>-->
+        <!--<th scope="col">p_name</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody id="requiredwood">-->
+    <!--</tbody>-->
+<!--</table>-->
+
+<div id = "requiredwood"> </div>
 
 
 
@@ -24,6 +77,10 @@
 <h2> Screws Required to be purchased </h2>
 
 
+
+</br>
+<h5>Once you are finished click <a href="instructions.htm"> here </a> for instructions </h5>
+</br>
 
 
 </body>

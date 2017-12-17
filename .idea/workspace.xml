@@ -4,15 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f6b9e5-e272-4900-9f78-8a521ccf08fd" name="Default" comment="initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/untitled.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="e2f6b9e5-e272-4900-9f78-8a521ccf08fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/requiredscrews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/requiredtools.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/connect.php" afterPath="$PROJECT_DIR$/api/connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/getinst.php" afterPath="$PROJECT_DIR$/api/getinst.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/helper/fetchdbhelper.php" afterPath="$PROJECT_DIR$/api/helper/fetchdbhelper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/requiredwood.php" afterPath="$PROJECT_DIR$/api/requiredwood.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm" afterPath="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,25 +22,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requiredwood.php" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="requiredwood.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/requiredwood.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1513113091972" expanded="true" signature="189:247" ph="SELECT From INTO... " />
-                <marker date="1513113091972" expanded="true" signature="203:247" ph="INSERT INTO user_wood... " />
-                <marker date="1513113091972" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
+                <marker date="1513113690670" expanded="true" signature="189:247" ph="SELECT From INTO... " />
+                <marker date="1513113690670" expanded="true" signature="203:247" ph="INSERT INTO user_wood... " />
+                <marker date="1513113690670" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adduserstock.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/adduserstock.htm">
+      <file leaf-file-name="requiredtools.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/requiredtools.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-918">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513528723838" expanded="true" signature="189:246" ph="SELECT * FRO... project_tools" />
+                <marker date="1513528723838" expanded="true" signature="511:567" ph="SELECT * FRO... user_wood" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fetchdbhelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/helper/fetchdbhelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requiredscrews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/requiredscrews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1513529569455" expanded="true" signature="189:247" ph="SELECT * FRO... project_screws" />
+                <marker date="1513529569455" expanded="true" signature="514:570" ph="SELECT * FRO... user_screw" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequiredstockandtoolsminusCURRENT.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -71,7 +117,6 @@
         <option value="$PROJECT_DIR$/api/getuserwood.php" />
         <option value="$PROJECT_DIR$/Customeraccountpage.htm" />
         <option value="$PROJECT_DIR$/api/getusertools.php" />
-        <option value="$PROJECT_DIR$/api/connect.php" />
         <option value="$PROJECT_DIR$/api/addwoodscrewstools.php" />
         <option value="$PROJECT_DIR$/api/getuserscrews.php" />
         <option value="$PROJECT_DIR$/view/adduserstock.html" />
@@ -94,15 +139,18 @@
         <option value="$PROJECT_DIR$/api/addprojectinst.php" />
         <option value="$PROJECT_DIR$/view/SystemOwner.htm" />
         <option value="$PROJECT_DIR$/view/instructions.html" />
-        <option value="$PROJECT_DIR$/api/getinst.php" />
-        <option value="$PROJECT_DIR$/view/instructions.htm" />
         <option value="$PROJECT_DIR$/ToolBoxCSS.css" />
         <option value="$PROJECT_DIR$/view/Customeraccountpage.htm" />
         <option value="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT - Copy.htm" />
-        <option value="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm" />
-        <option value="$PROJECT_DIR$/api/helper/fetchdbhelper.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/api/requiredwood.php" />
+        <option value="$PROJECT_DIR$/api/helper/fetchdbhelper.php" />
+        <option value="$PROJECT_DIR$/view/instructions.htm" />
+        <option value="$PROJECT_DIR$/api/connect.php" />
+        <option value="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm" />
+        <option value="$PROJECT_DIR$/api/getinst.php" />
+        <option value="$PROJECT_DIR$/api/requiredtools.php" />
+        <option value="$PROJECT_DIR$/api/requiredscrews.php" />
       </list>
     </option>
   </component>
@@ -134,17 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -161,16 +198,24 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="untitled" type="cbb8eebc:String" user="untitled" />
+              <item name="api" type="cbb8eebc:String" user="api" />
+              <item name="helper" type="cbb8eebc:String" user="helper" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="untitled" type="cbb8eebc:String" user="untitled" />
               <item name="view" type="cbb8eebc:String" user="view" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
-              <item name="C:" type="cbb8eebc:String" user="C:" />
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -273,7 +318,8 @@
       <workItem from="1512235770142" duration="78000" />
       <workItem from="1512504325537" duration="3816000" />
       <workItem from="1513108689408" duration="305000" />
-      <workItem from="1513109022851" duration="4180000" />
+      <workItem from="1513109022851" duration="5023000" />
+      <workItem from="1513512377039" duration="8977000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1513109107857</created>
@@ -303,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513109337216</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Calculation for required wood.">
+      <created>1513113250402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513113250402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111882000" />
+    <option name="totallyTimeSpent" value="121702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,7 +375,7 @@
     <frame x="-8" y="-8" width="1382" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -352,7 +405,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git ignore file" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Calculation for required wood." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculation for required wood." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,8 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stockandtoolsaddition.htm" />
-    <entry file="file://$PROJECT_DIR$/Instructions.htm" />
     <entry file="file://$PROJECT_DIR$/parts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -522,28 +574,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/login_tools.php" />
-    <entry file="file://$PROJECT_DIR$/api/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/Landingloginpage.htm" />
-    <entry file="file://$PROJECT_DIR$/api/addprojecttools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/addprojectwood.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/adduser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -557,23 +588,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Instructions.htm" />
-    <entry file="file://$PROJECT_DIR$/api/addtools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/addprojectinst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1512219379239" expanded="true" signature="163:257" ph="INSERT INTO project_instructions... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ToolBoxCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -581,10 +595,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addprojectscrews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <marker date="1512217986665" expanded="true" signature="232:357" ph="INSERT INTO project_screws... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addprojectinst.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512219379239" expanded="true" signature="163:257" ph="INSERT INTO project_instructions... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addprojecttools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512217264676" expanded="true" signature="190:289" ph="INSERT INTO project_tools... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addprojectwood.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512214099400" expanded="true" signature="225:345" ph="INSERT INTO project_wood... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addscrews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511970835328" expanded="true" signature="226:337" ph="INSERT INTO user_screw... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addtools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1511904002197" expanded="true" signature="182:271" ph="INSERT INTO user_tools... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addwood.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511968429359" expanded="true" signature="233:344" ph="INSERT INTO user_wood... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/getinst.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513517693800" expanded="true" signature="181:203" ph="SELECT * FRO... user_screw" />
+            <marker date="1513517693800" expanded="true" signature="181:215" ph="SELECT * FRO... project_instructions" />
+            <marker date="1513517693800" expanded="true" signature="181:228" ph="SELECT * FRO... project_instructions" />
+            <marker date="1513517693800" expanded="true" signature="181:238" ph="SELECT * FRO... project_instructions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/getuserscrews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511103253823" expanded="true" signature="342:366" ph="SELECT * FRO... user_screw" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/getusertools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511006432961" expanded="true" signature="340:364" ph="SELECT * FRO... user_tools" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1512062797937" expanded="true" signature="178:270" ph="SELECT * FRO... user" />
             <marker date="1512062797937" expanded="true" signature="599:622" ph="..." />
@@ -597,8 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/getuserwood.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1510691702610" expanded="true" signature="354:379" ph="SELECT * FRO... user_wood" />
             <marker date="1510691702610" expanded="true" signature="391:414" ph="SELECT * FRO... user_wood" />
@@ -606,76 +738,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/getuserscrews.php">
+    <entry file="file://$PROJECT_DIR$/view/adduserstock.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1511103253823" expanded="true" signature="342:366" ph="SELECT * FRO... user_screw" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/addwood.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="2" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <marker date="1511968429359" expanded="true" signature="233:344" ph="INSERT INTO user_wood... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/addscrews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <marker date="1511970835328" expanded="true" signature="226:337" ph="INSERT INTO user_screw... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/helper/fetchdbhelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/getusertools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1511006432961" expanded="true" signature="340:364" ph="SELECT * FRO... user_tools" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/SystemOwner.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-378">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
+    <entry file="file://$PROJECT_DIR$/view/accountregistration.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -693,60 +764,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/addprojectscrews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding>
-            <marker date="1512217986665" expanded="true" signature="232:357" ph="INSERT INTO project_screws... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
+    <entry file="file://$PROJECT_DIR$/view/SystemOwner.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/accountregistration.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/getinst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1512225825351" expanded="true" signature="181:203" ph="SELECT * FRO... user_screw" />
-            <marker date="1512225825351" expanded="true" signature="181:215" ph="SELECT * FRO... project_instructions" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/adduserstock.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/requiredwood.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513113091972" expanded="true" signature="189:247" ph="SELECT From INTO... " />
-            <marker date="1513113091972" expanded="true" signature="203:247" ph="INSERT INTO user_wood... " />
-            <marker date="1513113091972" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
+            <marker date="1513113690670" expanded="true" signature="189:247" ph="SELECT From INTO... " />
+            <marker date="1513113690670" expanded="true" signature="203:247" ph="INSERT INTO user_wood... " />
+            <marker date="1513113690670" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/requiredtools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513528723838" expanded="true" signature="189:246" ph="SELECT * FRO... project_tools" />
+            <marker date="1513528723838" expanded="true" signature="511:567" ph="SELECT * FRO... user_wood" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/requiredscrews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1513529569455" expanded="true" signature="189:247" ph="SELECT * FRO... project_screws" />
+            <marker date="1513529569455" expanded="true" signature="514:570" ph="SELECT * FRO... user_screw" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/helper/fetchdbhelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
