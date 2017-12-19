@@ -7,7 +7,7 @@
 
     <script>
 
-        httpGetAsync('../api/requiredwood.php', callrequiredwood); // changed callback to call
+        httpGetAsync('../api/requiredwood.php?user_id=user01&p_name=chair', callrequiredwood); // changed callback to call
         function callrequiredwood(result) {
             console.log(result);
             var listRequiredwood = JSON.parse(result);
