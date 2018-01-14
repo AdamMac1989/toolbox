@@ -6,14 +6,12 @@
  * Time: 20:29
  */
 
+include_once 'toolboxitem.php';
 
-class UserScrews {
-    protected $connection;
+class UserScrews extends ToolboxItem
+{
 
-    public function connect()
-    {
-        $this->connection = new PDO("mysql:host=localhost;dbname=toolbox", "root", "root");
-    }
+
 
     public function deleteScrew($length, $number)
     {
@@ -22,7 +20,8 @@ class UserScrews {
             "DELETE FROM user_screw
             WHERE
                 length = :length
-            AND number = :number "
+            AND number = :number 
+            limit 1"
         );
 
         $data = [
@@ -30,7 +29,8 @@ class UserScrews {
             ':number' => $number
         ];
 
-        return $query->execute($data);
+        $query->execute($data);
+        return $query;
 
 
     }

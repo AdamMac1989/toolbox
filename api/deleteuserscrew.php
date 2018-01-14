@@ -5,7 +5,7 @@
  * Date: 19/12/2017
  * Time: 20:45
  */
-require 'userscrews.php';
+require 'model/userscrews.php';
 
 //if (!isset($_GET['id']) || empty($_GET['id'])) {
 //    echo "You did not pass in an ID.";
@@ -22,7 +22,7 @@ $topic = $data->deleteScrew($_GET['length'], $_GET['number']);
 //}
 
 if ($topic) {
-    header("Location: ../view/Customeraccountpage.htm");
+//    header("Location: ../view/Customeraccountpage.htm");
     exit;
 } else {
     echo "An error occurred";
