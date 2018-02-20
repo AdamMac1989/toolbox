@@ -32,6 +32,11 @@ foreach ($screws as $screw) {
     $userscrews->deleteScrew($screw ['length'], $screw['number']);
 }
 
+
+header("Location: ../view/Customeraccountpage.htm");
+die();
+
+
 //todo project userwood delete
 
 
