@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2f6b9e5-e272-4900-9f78-8a521ccf08fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Schema/userscrews.sql" afterPath="$PROJECT_DIR$/Schema/userscrews.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/completeproject.php" afterPath="$PROJECT_DIR$/api/completeproject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/model/userwood.php" afterPath="$PROJECT_DIR$/api/model/userwood.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm" afterPath="$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,141 +27,125 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="requiredtools.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/requiredtools.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-162">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1513528723838" expanded="true" signature="189:246" ph="SELECT * FRO... project_tools" />
-                    <marker date="1513528723838" expanded="true" signature="511:567" ph="SELECT * FRO... user_tools" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Customeraccountpage.htm" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-36">
-                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="requiredwood.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/requiredwood.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-54">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1513113690670" expanded="true" signature="189:245" ph="SELECT * FRO... project_wood" />
-                    <marker date="1513113690670" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="requiredscrews.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/requiredscrews.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-666">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1513529569455" expanded="true" signature="189:247" ph="SELECT * FRO... project_screws" />
-                    <marker date="1513529569455" expanded="true" signature="514:570" ph="SELECT * FRO... user_screw" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RequiredstockandtoolsminusCURRENT.htm" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="deleteuserscrew.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/deleteuserscrew.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="getuserscrews.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/getuserscrews.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1511103253823" expanded="true" signature="342:366" ph="SELECT * FRO... user_screw" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="getusertools.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/getusertools.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1511006432961" expanded="true" signature="340:364" ph="SELECT * FRO... user_tools" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="getuserwood.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/api/getuserwood.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1510691702610" expanded="true" signature="391:414" ph="SELECT * FRO... user_wood" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="userscrews.sql" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="RequiredstockandtoolsminusCURRENT.htm" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="19" column="84" lean-forward="true" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="requiredtools.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/requiredtools.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513528723838" expanded="true" signature="189:246" ph="SELECT * FRO... project_tools" />
+                <marker date="1513528723838" expanded="true" signature="511:567" ph="SELECT * FRO... user_tools" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customeraccountpage.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1746">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requiredwood.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/requiredwood.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513113690670" expanded="true" signature="189:245" ph="SELECT * FRO... project_wood" />
+                <marker date="1513113690670" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1512062797937" expanded="true" signature="178:270" ph="SELECT * FRO... user" />
+                <marker date="1512062797937" expanded="true" signature="599:730" ph="..." />
+                <marker date="1512062797937" expanded="true" signature="661:721" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requiredscrews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/requiredscrews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-666">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1513529569455" expanded="true" signature="189:247" ph="SELECT * FRO... project_screws" />
+                <marker date="1513529569455" expanded="true" signature="514:570" ph="SELECT * FRO... user_screw" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequiredstockandtoolsminusCURRENT.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteuserscrew.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/deleteuserscrew.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getusertools.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/getusertools.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1511006432961" expanded="true" signature="340:364" ph="SELECT * FRO... user_tools" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getuserwood.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/getuserwood.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1510691702610" expanded="true" signature="391:414" ph="SELECT * FRO... user_wood" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userscrews.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="98" column="33" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -427,7 +408,7 @@
       <workItem from="1519071085363" duration="167000" />
       <workItem from="1519157178751" duration="3499000" />
       <workItem from="1519558015714" duration="2371000" />
-      <workItem from="1519569132669" duration="5409000" />
+      <workItem from="1519569132669" duration="7922000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1513109107857</created>
@@ -513,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519561490094</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated completewood.php to run the deletion.&#10;Updated required stock to show required tools and required screws.">
+      <created>1519575269814</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519575269814</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150409000" />
+    <option name="totallyTimeSpent" value="152922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +557,8 @@
     <MESSAGE value="Complete project endpoint. Added model classes. Created super class to manage connection. Add table to required stock page." />
     <MESSAGE value="Linked pages. User screw stock deleted. Button on customer account hardcoded." />
     <MESSAGE value="Created project wood and user wood class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created project wood and user wood class" />
+    <MESSAGE value="Updated completewood.php to run the deletion.&#10;Updated required stock to show required tools and required screws." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated completewood.php to run the deletion.&#10;Updated required stock to show required tools and required screws." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -779,18 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512062797937" expanded="true" signature="178:270" ph="SELECT * FRO... user" />
-            <marker date="1512062797937" expanded="true" signature="599:730" ph="..." />
-            <marker date="1512062797937" expanded="true" signature="661:721" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ToolBoxCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
@@ -833,7 +810,7 @@
         <state relative-caret-position="216">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <marker date="1519569176340" expanded="true" signature="291:452" ph="DELETE FROM " />
+            <marker date="1519575263110" expanded="true" signature="290:451" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -927,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/deleteuserscrew.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -945,16 +914,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="-1746">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512062797937" expanded="true" signature="178:270" ph="SELECT * FRO... user" />
+            <marker date="1512062797937" expanded="true" signature="599:730" ph="..." />
+            <marker date="1512062797937" expanded="true" signature="661:721" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="98" column="33" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="84" lean-forward="true" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

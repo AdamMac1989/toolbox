@@ -5,6 +5,9 @@
 
     <link rel ="stylesheet" href ="../ToolBoxCSS.css"/>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
     <script>
 
         //This part is for wood
@@ -17,12 +20,14 @@
 
             for (var i in listRequiredwood) {
                 var htmlrequiredwood = document.getElementById("requiredwood").innerHTML;
-                document.getElementById("requiredwood").innerHTML = htmlrequiredwood
-                  + " " +    (listRequiredwood[i].pw_id )
-                  + " " +    (listRequiredwood[i].length)
-                  + " " +   (listRequiredwood[i].width)
-                  + " " +   (listRequiredwood[i].height)
-                  + " " +   (listRequiredwood[i].p_name) + "</br>" ;
+                document.getElementById("requiredwood").innerHTML = htmlrequiredwood + "<tr>" +
+                    "<td> " + (listRequiredwood[i].pw_id ) + "</td>" +
+                    "<td> " + (listRequiredwood[i].length) + "</td>" +
+                    "<td> " + (listRequiredwood[i].width) + "</td>" +
+                    "<td> " + (listRequiredwood[i].height) + "</td>" +
+                    "<td> " + (listRequiredwood[i].p_name) + "</td></tr>";
+
+//                if above doesn't work add back "</br>" ;
             }
 
         }
@@ -50,10 +55,10 @@
 
             for (var i in listRequiredtools) {
                 var htmlrequiredtools = document.getElementById("requiredtools").innerHTML;
-                document.getElementById("requiredtools").innerHTML = htmlrequiredtools
-                    + " " + (listRequiredtools[i].prtool_id )
-                    + " " + (listRequiredtools[i].tool)
-                    + " " + (listRequiredtools[i].p_name) + "</br>";
+                document.getElementById("requiredtools").innerHTML = htmlrequiredtools + "<tr>" +
+                    "<td>" + (listRequiredtools[i].prtool_id ) + "</td>" +
+                    "<td>" + (listRequiredtools[i].tool) + "</td>" +
+                    "<td>" + (listRequiredtools[i].p_name) + "</td></tr>";
             }
 
         }
@@ -80,11 +85,11 @@
 
             for (var i in listRequiredscrews) {
                 var htmlrequiredscrews = document.getElementById("requiredscrews").innerHTML;
-                document.getElementById("requiredscrews").innerHTML = htmlrequiredscrews
-                    + " " + (listRequiredscrews[i].prsw_id )
-                    + " " + (listRequiredscrews[i].length)
-                    + " " + (listRequiredscrews[i].number)
-                    + " " + (listRequiredscrews[i].p_name) + "</br>";
+                document.getElementById("requiredscrews").innerHTML = htmlrequiredscrews + "<tr>" +
+                    "<td> " + (listRequiredscrews[i].prsw_id ) + "</td>" +
+                    "<td>" + (listRequiredscrews[i].length) + "</td>" +
+                    "<td> " + (listRequiredscrews[i].number) + "</td>" +
+                    "<td> " + (listRequiredscrews[i].p_name) + "</td></tr>";
             }
 
         }
@@ -108,41 +113,72 @@
 
 </head>
 
-<body>
+<br>
 
-<h1> ToolBox </h1>
+<h1> ToolBox(Required stock to build project) </h1>
+
+</br>
 
 <h2> Wood Required to be purchased </h2>
 
+</br>
 
-<!--<table class="table" style="width: 50%">-->
-    <!--<thead>-->
-    <!--<tr>-->
-        <!--<th scope="col">pw_id</th>-->
-        <!--<th scope="col">Length</th>-->
-        <!--<th scope="col">Width</th>-->
-        <!--<th scope="col">Height</th>-->
-        <!--<th scope="col">p_name</th>-->
-    <!--</tr>-->
-    <!--</thead>-->
-    <!--<tbody id="requiredwood">-->
-    <!--</tbody>-->
-<!--</table>-->
+<table class="table" style="...">
+    <thead>
+    <tr>
+        <th scope="col">pw_id</th>
+        <th scope="col">Length</th>
+        <th scope="col">Width</th>
+        <th scope="col">Height</th>
+        <th scope="col">p_name</th>
+    </tr>
+    </thead>
+    <tbody id="requiredwood">
+    </tbody>
+</table>
 
-<div id = "requiredwood"> </div>
+<!--<div id = "requiredwood"> </div>-->
 
+</br>
 
 <h2> Tools Required to be purchased </h2>
 
+</br>
 
-<div id="requiredtools"></div>
+<table class="table" style="...">
+    <thead>
+    <tr>
+        <th scope="col">prtool_id</th>
+        <th scope="col">Tool</th>
+        <th scope="col">p_name</th>
+    </tr>
+    </thead>
+    <tbody id="requiredtools">
+    </tbody>
+</table>
 
+<!--<div id="requiredtools"></div>-->
+
+</br>
 
 <h2> Screws Required to be purchased </h2>
 
+</br>
 
-<div id="requiredscrews"></div>
+<table class="table" style="...">
+    <thead>
+    <tr>
+        <th scope="col">prsw_id</th>
+        <th scope="col">Length</th>
+        <th scope="col">Number</th>
+        <th scope="col">p_name</th>
+    </tr>
+    </thead>
+    <tbody id="requiredscrews">
+    </tbody>
+</table>
 
+<!--<div id="requiredscrews"></div>-->
 
 </br>
 <h5>Once you are finished click <a href="instructions.htm"> here </a> for instructions </h5>
