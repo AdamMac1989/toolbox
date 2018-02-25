@@ -2,31 +2,32 @@
 /**
  * Created by PhpStorm.
  * User: Adam Macphee
- * Date: 19/12/2017
- * Time: 20:29
+ * Date: 25/02/2018
+ * Time: 12:11
  */
 
 include_once 'toolboxitem.php';
 
-class UserScrews extends ToolboxItem
+class UserWood extends ToolboxItem
 {
 
 
-
-    public function deleteScrew($length, $number)
+    public function deleteWood($length, $width, $height)
     {
 
         $query = $this->connection->prepare(
-            "DELETE FROM user_screw
+            "DELETE FROM user_wood
             WHERE
                 length = :length
-            AND number = :number 
+              AND width = :width
+             AND  height = :height 
             limit 1"
         );
 
         $data = [
             ':length' => $length,
-            ':number' => $number
+            ':width' => $width,
+            ':height' => $height
         ];
 
         $query->execute($data);
@@ -38,6 +39,4 @@ class UserScrews extends ToolboxItem
 
 }
 
-
 ?>
-
