@@ -7,6 +7,8 @@
 
     <script>
 
+        //This part is for wood
+
         httpGetAsync('../api/requiredwood.php?user_id=user01&p_name=chair', callrequiredwood); // changed callback to call
         function callrequiredwood(result) {
             console.log(result);
@@ -21,6 +23,68 @@
                   + " " +   (listRequiredwood[i].width)
                   + " " +   (listRequiredwood[i].height)
                   + " " +   (listRequiredwood[i].p_name) + "</br>" ;
+            }
+
+        }
+
+
+        function httpGetAsync(theUrl, callback) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+        }
+
+
+        //This part is for tools
+
+
+        httpGetAsync('../api/requiredtools.php?user_id=user01&p_name=chair', callrequiredtools); // changed callback to call
+        function callrequiredtools(result) {
+            console.log(result);
+            var listRequiredtools = JSON.parse(result);
+
+
+            for (var i in listRequiredtools) {
+                var htmlrequiredtools = document.getElementById("requiredtools").innerHTML;
+                document.getElementById("requiredtools").innerHTML = htmlrequiredtools
+                    + " " + (listRequiredtools[i].prtool_id )
+                    + " " + (listRequiredtools[i].tool)
+                    + " " + (listRequiredtools[i].p_name) + "</br>";
+            }
+
+        }
+
+
+        function httpGetAsync(theUrl, callback) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+        }
+
+
+        //This part is for screws
+
+        httpGetAsync('../api/requiredscrews.php?user_id=user01&p_name=chair', callrequiredscrews); // changed callback to call
+        function callrequiredscrews(result) {
+            console.log(result);
+            var listRequiredscrews = JSON.parse(result);
+
+
+            for (var i in listRequiredscrews) {
+                var htmlrequiredscrews = document.getElementById("requiredscrews").innerHTML;
+                document.getElementById("requiredscrews").innerHTML = htmlrequiredscrews
+                    + " " + (listRequiredscrews[i].prsw_id )
+                    + " " + (listRequiredscrews[i].length)
+                    + " " + (listRequiredscrews[i].number)
+                    + " " + (listRequiredscrews[i].p_name) + "</br>";
             }
 
         }
@@ -68,14 +132,16 @@
 <div id = "requiredwood"> </div>
 
 
-
 <h2> Tools Required to be purchased </h2>
 
 
+<div id="requiredtools"></div>
 
 
 <h2> Screws Required to be purchased </h2>
 
+
+<div id="requiredscrews"></div>
 
 
 </br>
