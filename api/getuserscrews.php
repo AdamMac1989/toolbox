@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 //echo "Connected successfully";
 
-$userscrews = "SELECT * FROM user_screw";
+$userscrews = "SELECT * FROM user_screw where user_id = 'user01'";
 $screwlist = $conn ->query($userscrews);
 
 $screwresult = array();

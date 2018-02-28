@@ -95,10 +95,8 @@ CREATE TABLE `user_wood` (
 --
 
 INSERT INTO `user_wood` (`wood_id`, `length`, `width`, `height`, `user_id`) VALUES
-('WD001', 20, 20, 20, 'USER01'),
-('test06', 20, 20, 20, 'test06'),
-('WD002', 20, 20, 20, 'USER01'),
-('WD008', 50, 50, 5, 'USER01');
+('WD001', 20, 20, 20, 'USER22'),
+('WD008', 50, 50, 5, 'USER22');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

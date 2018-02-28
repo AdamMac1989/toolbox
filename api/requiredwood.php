@@ -51,8 +51,8 @@ foreach ($userwood as &$uw) {
             unset($systemwood[$s]);
             $systemwood = array_values ($systemwood);
            break;
-        }
 
+        }
     }
 
 }

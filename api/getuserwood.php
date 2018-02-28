@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 //echo "Connected successfully";
 
 //echo mysqli_query($conn, "SELECT * FROM `user_wood`");
-$sql = "SELECT * FROM user_wood";
+$sql = "SELECT * FROM user_wood where user_id = 'user01'";
 $result = $conn->query($sql);
 
 $list = array();

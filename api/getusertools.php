@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 //echo "Connected successfully";
 
-$usertools = "SELECT * FROM user_tools";
+$usertools = "SELECT * FROM user_tools where user_id = 'user01'";
 $toollist = $conn ->query($usertools);
 
 $toolresult = array();
