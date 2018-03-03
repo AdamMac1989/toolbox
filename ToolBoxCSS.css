@@ -56,6 +56,19 @@ input[type=number] {
     width: 100%;
 }
 
+/*.btn {*/
+/*background-color: darkblue;*/
+/*color: white;*/
+/*padding: 14px 20px;*/
+/*margin: 8px 0;*/
+/*border: none;*/
+/*cursor: pointer;*/
+/*width: 50%;*/
+/*}*/
+
+
+
+
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
@@ -100,15 +113,15 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
+/*button {*/
+/*background-color: darkblue;*/
+/*color: white;*/
+/*padding: 14px 20px;*/
+/*margin: 8px 0;*/
+/*border: none;*/
+/*cursor: pointer;*/
+/*width: 50%;*/
+/*}*/
 
 button:hover {
     opacity: 0.8;
