@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2f6b9e5-e272-4900-9f78-8a521ccf08fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolBoxCSS.css" afterPath="$PROJECT_DIR$/ToolBoxCSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/Customeraccountpage.htm" afterPath="$PROJECT_DIR$/view/Customeraccountpage.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/login.php" afterPath="$PROJECT_DIR$/api/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Customeraccountpage.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Customeraccountpage.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -39,8 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accountregistration.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/accountregistration.htm">
+      <file leaf-file-name="projectwood.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/model/projectwood.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1519561473932" expanded="true" signature="272:349" ph="SELECT * FRO... project_wood" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userscrews.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -49,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToolBoxCSS.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ToolBoxCSS.css">
+      <file leaf-file-name="addprojecttools.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/addprojecttools.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1512217264676" expanded="true" signature="190:289" ph="INSERT INTO project_tools... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountregistration.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/accountregistration.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,71 +92,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adduser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/adduser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1512061804372" expanded="true" signature="227:328" ph="INSERT INTO user... " />
-                <marker date="1512061804372" expanded="true" signature="519:635" ph="..." />
-                <marker date="1512061804372" expanded="true" signature="566:626" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getuserscrews.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/getuserscrews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1519851745305" expanded="true" signature="342:366" ph="SELECT * FRO... user_screw" />
-                <marker date="1519851745305" expanded="true" signature="342:382" ph="SELECT * FRO... user_screw" />
-                <marker date="1519851745305" expanded="true" signature="342:390" ph="SELECT * FRO... user_screw" />
-                <marker date="1519851745305" expanded="true" signature="342:391" ph="SELECT * FRO... user_screw" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1512062797937" expanded="true" signature="178:270" ph="SELECT * FRO... user" />
-                <marker date="1512062797937" expanded="true" signature="599:730" ph="..." />
-                <marker date="1512062797937" expanded="true" signature="661:721" ph="//..." />
+                <marker date="1520714327842" expanded="true" signature="178:267" ph="SELECT * FRO... user" />
+                <marker date="1520714327842" expanded="true" signature="596:727" ph="..." />
+                <marker date="1520714327842" expanded="true" signature="658:718" ph="//..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequiredstockandtoolsminusCURRENT.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
+      <file leaf-file-name="addscrews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/addscrews.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userscrews.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-              <folding />
+              <folding>
+                <marker date="1511970835328" expanded="true" signature="226:337" ph="INSERT INTO user_screw... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SystemOwner.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/SystemOwner.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequiredstockandtoolsminusCURRENT.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -182,7 +178,6 @@
         <option value="$PROJECT_DIR$/view/adduserstock.htm" />
         <option value="$PROJECT_DIR$/api/adduser.php" />
         <option value="$PROJECT_DIR$/view/accountregistration.htm" />
-        <option value="$PROJECT_DIR$/api/login.php" />
         <option value="$PROJECT_DIR$/SystemOwner.htm" />
         <option value="$PROJECT_DIR$/api/addprojectwood.php" />
         <option value="$PROJECT_DIR$/api/addprojecttools.php" />
@@ -214,6 +209,7 @@
         <option value="$PROJECT_DIR$/Schema/userscrews.sql" />
         <option value="$PROJECT_DIR$/ToolBoxCSS.css" />
         <option value="$PROJECT_DIR$/view/Customeraccountpage.htm" />
+        <option value="$PROJECT_DIR$/api/login.php" />
       </list>
     </option>
   </component>
@@ -246,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,7 +404,12 @@
       <workItem from="1519569132669" duration="8515000" />
       <workItem from="1519847753970" duration="4506000" />
       <workItem from="1520084215324" duration="4026000" />
-      <workItem from="1520089142668" duration="1183000" />
+      <workItem from="1520089142668" duration="1276000" />
+      <workItem from="1520356532382" duration="1217000" />
+      <workItem from="1520684094736" duration="6000" />
+      <workItem from="1520684870645" duration="2666000" />
+      <workItem from="1520701089213" duration="2108000" />
+      <workItem from="1520711769144" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1513109107857</created>
@@ -522,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520088716648</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Turned off CSS sheet in customeraccount and stopped th estyle of the button in account registration.">
+      <created>1520090369640</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1520090369640</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163230000" />
+    <option name="totallyTimeSpent" value="170913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +549,7 @@
     <frame x="-8" y="-8" width="1382" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -582,7 +590,8 @@
     <MESSAGE value="Updated required stock to include a table on the page." />
     <MESSAGE value="Added restriction to customer account page to only show user01. Added wrench." />
     <MESSAGE value="Cleared up table statements, added to SQL file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleared up table statements, added to SQL file." />
+    <MESSAGE value="Turned off CSS sheet in customeraccount and stopped th estyle of the button in account registration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Turned off CSS sheet in customeraccount and stopped th estyle of the button in account registration." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -716,21 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/addprojecttools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/addprojectwood.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -745,13 +740,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/getinst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/addscrews.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -787,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/model/projectwood.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/instructions.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-954">
@@ -805,10 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1513529569455" expanded="true" signature="189:247" ph="SELECT * FRO... project_screws" />
-            <marker date="1513529569455" expanded="true" signature="514:570" ph="SELECT * FRO... user_screw" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,10 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1513528723838" expanded="true" signature="189:246" ph="SELECT * FRO... project_tools" />
-            <marker date="1513528723838" expanded="true" signature="511:567" ph="SELECT * FRO... user_tools" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,11 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <marker date="1519851777080" expanded="true" signature="340:364" ph="SELECT * FRO... user_tools" />
-            <marker date="1519851777080" expanded="true" signature="340:380" ph="SELECT * FRO... user_tools" />
-            <marker date="1519851777080" expanded="true" signature="340:389" ph="SELECT * FRO... user_tools" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,11 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <marker date="1519851824543" expanded="true" signature="391:414" ph="SELECT * FRO... user_wood" />
-            <marker date="1519851824543" expanded="true" signature="391:430" ph="SELECT * FRO... user_wood" />
-            <marker date="1519851824543" expanded="true" signature="391:439" ph="SELECT * FRO... user_wood" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,10 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <marker date="1519852106336" expanded="true" signature="189:245" ph="SELECT * FRO... project_wood" />
-            <marker date="1519852106336" expanded="true" signature="508:563" ph="SELECT * FRO... user_wood" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,20 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519851745305" expanded="true" signature="342:366" ph="SELECT * FRO... user_screw" />
-            <marker date="1519851745305" expanded="true" signature="342:382" ph="SELECT * FRO... user_screw" />
-            <marker date="1519851745305" expanded="true" signature="342:390" ph="SELECT * FRO... user_screw" />
-            <marker date="1519851745305" expanded="true" signature="342:391" ph="SELECT * FRO... user_screw" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,35 +842,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512061804372" expanded="true" signature="227:328" ph="INSERT INTO user... " />
-            <marker date="1512061804372" expanded="true" signature="519:635" ph="..." />
-            <marker date="1512061804372" expanded="true" signature="566:626" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/login.php">
+    <entry file="file://$PROJECT_DIR$/ToolBoxCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/addprojecttools.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512062797937" expanded="true" signature="178:270" ph="SELECT * FRO... user" />
-            <marker date="1512062797937" expanded="true" signature="599:730" ph="..." />
-            <marker date="1512062797937" expanded="true" signature="661:721" ph="//..." />
+            <marker date="1512217264676" expanded="true" signature="190:289" ph="INSERT INTO project_tools... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/RequiredstockandtoolsminusCURRENT.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/SystemOwner.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -941,10 +885,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToolBoxCSS.css">
+    <entry file="file://$PROJECT_DIR$/api/addscrews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511970835328" expanded="true" signature="226:337" ph="INSERT INTO user_screw... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/model/projectwood.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519561473932" expanded="true" signature="272:349" ph="SELECT * FRO... project_wood" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Schema/userscrews.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/SystemOwner.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -957,11 +937,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/Customeraccountpage.htm">
+    <entry file="file://$PROJECT_DIR$/api/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1520714327842" expanded="true" signature="178:267" ph="SELECT * FRO... user" />
+            <marker date="1520714327842" expanded="true" signature="596:727" ph="..." />
+            <marker date="1520714327842" expanded="true" signature="658:718" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>

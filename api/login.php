@@ -5,7 +5,7 @@ if (isset($_POST['sub'])) {
     $db = new mysqli("localhost", "root", "root", "toolbox");
 
     // create query
-    $query = "SELECT * FROM user WHERE user_id='" . $_POST['uname'] . "' AND pass='" . $_POST['pass'] . "'";
+    $query = "SELECT * FROM user WHERE name='" . $_POST['uname'] . "' AND pass='" . $_POST['pass'] . "'";
 
     // execute query
     $sql = $db->query($query);
